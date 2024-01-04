@@ -11,6 +11,7 @@ int main()
     {
         perror("open error");
     }
-    
+    /*关机文件*/
+    close(fd);
     return 0;
 }
